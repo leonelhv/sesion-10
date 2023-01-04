@@ -1,6 +1,10 @@
-<app-c1></app-c1>
-<div class="flex justify-center items-start gap-32 my-10 flex-wrap">
-  <app-c3 (responseTarea)="guardarTarea($event)"></app-c3>
-  <app-c4 [tareas]="tareas"></app-c4>
+<div class="flex flex-col h-full">
+  <app-c1></app-c1>
+  <div
+    class="flex justify-center items-center gap-32 my-10 flex-wrap flex-grow"
+  >
+    <app-c3 (responseTarea)="guardarTarea($event)"></app-c3>
+    <app-c4 [tareas]="tareas"></app-c4>
+  </div>
+  <app-c2></app-c2>
 </div>
-<app-c2></app-c2>
