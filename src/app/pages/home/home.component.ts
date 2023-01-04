@@ -1,9 +1,5 @@
 import { Component } from '@angular/core';
-
-interface tarea {
-  nombre: string;
-  descripcion: string;
-}
+import { tarea } from 'src/app/interface/tarea.interface';
 
 @Component({
   selector: 'app-home',

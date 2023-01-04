@@ -1,8 +1,6 @@
 import { Component, Output, EventEmitter } from '@angular/core';
-interface tarea {
-  nombre: string;
-  descripcion: string;
-}
+import { tarea } from 'src/app/interface/tarea.interface';
+
 @Component({
   selector: 'app-c3',
   templateUrl: './c3.component.html',

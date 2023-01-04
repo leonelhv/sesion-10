@@ -1,8 +1,6 @@
 import { Component, Input } from '@angular/core';
-interface tarea {
-  nombre: string;
-  descripcion: string;
-}
+import { tarea } from 'src/app/interface/tarea.interface';
+
 @Component({
   selector: 'app-c4',
   templateUrl: './c4.component.html',
