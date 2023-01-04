@@ -1,11 +1,11 @@
 <form
-  class="flex flex-col items-center justify-center gap-2 border p-7 flex-1"
+  class="flex flex-col items-center justify-center gap-2 border border-gray-600 rounded-lg p-7 flex-1 bg-white"
   novalidate
   (ngSubmit)="guardar(); formtarea.reset()"
   #formtarea="ngForm"
 >
   <input
-    class="border p-2 rounded-lg"
+    class="border p-2 rounded-lg border-gray-600 text-center"
     type="text"
     placeholder="Ingrese nombre tarea"
     [(ngModel)]="nombre"
@@ -13,7 +13,7 @@
     name="nombre"
   />
   <textarea
-    class="border p-2 rounded-lg"
+    class="border p-2 rounded-lg border-gray-600"
     name=""
     id=""
     cols="30"
