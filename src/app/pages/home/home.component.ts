@@ -17,7 +17,7 @@ export class HomeComponent {
       descripcion: 'Estudiar formularios',
     },
   ];
-  guardarTarea(){
-    
+  guardarTarea(tarea: tarea) {
+    this.tareas.push(tarea);
   }
 }
